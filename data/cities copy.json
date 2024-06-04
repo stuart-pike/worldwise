@@ -35,42 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
-    },
-    {
-      "cityName": "Barcelona",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 41.390205,
-        "lng": 2.17023
-      },
-      "id": 17846551
-    },
-    {
-      "cityName": "Munich",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 48.1351,
-        "lng": 11.582
-      },
-      "id": 98832197
-    },
-    {
-      "cityName": "London",
-      "country": "United Kingdom",
-      "emoji": "🇬🇧",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 51.50709,
-        "lng": -0.12757
-      },
-      "id": 964032197
     }
   ]
 }

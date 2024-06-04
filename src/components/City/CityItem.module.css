@@ -36,14 +36,19 @@
 }
 
 .deleteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  padding-right: 1px;
   height: 2rem;
   aspect-ratio: 1;
   border-radius: 50%;
   border: none;
   background-color: var(--color-dark--1);
   color: var(--color-light--2);
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 100;
   cursor: pointer;
   transition: all 0.2s;
 }
