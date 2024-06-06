@@ -36,3 +36,11 @@
 :global(.leaflet-popup-content-wrapper) {
   border-left: 5px solid var(--color-brand--2);
 }
+
+:global(.leaflet-popup .leaflet-popup-content) {
+  font-family: "Twemoji Country Flags";
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

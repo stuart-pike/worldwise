@@ -2,6 +2,7 @@
 .cityItem:link,
 .cityItem:visited {
   display: flex;
+  flex-direction: row;
   gap: 1.6rem;
   align-items: center;
 
@@ -47,8 +48,8 @@
   border: none;
   background-color: var(--color-dark--1);
   color: var(--color-light--2);
-  font-size: 2rem;
-  font-weight: 100;
+  font-size: 2.5rem;
+  font-weight: 200;
   cursor: pointer;
   transition: all 0.2s;
 }
