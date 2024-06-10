@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   MapContainer,
   TileLayer,
@@ -10,15 +10,19 @@ import {
 import styles from "./Map.module.css";
 import { useState, useEffect } from "react";
 import { useCities } from "../../context/CitiesContext";
+import { useGeolocation } from "../../hooks/useGeolocation";
+import Button from "../Button/Button";
+import useUrlLocation from "../../hooks/useUrlLocation";
 
 function Map() {
-  // imperitive way to navigate to another URL
-  //const navigate = useNavigate();
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([51.505, -0.09]);
-  const [searchParams] = useSearchParams();
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+  const {
+    isLoading: isLoadingPosition,
+    position: geolocationPosition,
+    getPosition,
+  } = useGeolocation();
+  const [mapLat, mapLng] = useUrlLocation();
 
   useEffect(
     function () {
@@ -27,8 +31,21 @@ function Map() {
     [mapLat, mapLng]
   );
 
+  useEffect(
+    function () {
+      if (geolocationPosition)
+        setMapPosition([geolocationPosition.lat, geolocationPosition.lng]);
+    },
+    [geolocationPosition]
+  );
+
   return (
     <div className={styles.mapContainer}>
+      {!geolocationPosition && (
+        <Button type="position" onClick={getPosition}>
+          {isLoadingPosition ? "Loading..." : "Use your location"}
+        </Button>
+      )}
       <MapContainer
         className={styles.map}
         center={mapPosition}

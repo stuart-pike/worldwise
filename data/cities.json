@@ -1,66 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Barcelona",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 41.390205,
-        "lng": 2.17023
-      },
-      "id": 17846551
-    },
-    {
-      "cityName": "Munich",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 48.1351,
-        "lng": 11.582
-      },
-      "id": 98832197
-    },
-    {
       "cityName": "London",
       "country": "United Kingdom",
       "emoji": "🇬🇧",
@@ -71,6 +11,150 @@
         "lng": -0.12757
       },
       "id": 964032197
+    },
+    {
+      "cityName": "Napa",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-06-07T21:09:50.595Z",
+      "notes": "great French bistro here",
+      "position": {
+        "lat": "38.40226297974945",
+        "lng": "-122.36120224872141"
+      },
+      "id": 964032198
+    },
+    {
+      "cityName": "Prague",
+      "country": "Czechia",
+      "emoji": "🇨🇿",
+      "date": "2024-06-07T21:11:42.005Z",
+      "notes": "Beautiful period architecture. Some excellent cafes too. ",
+      "position": {
+        "lat": "50.087510549217384",
+        "lng": "14.421036243438722"
+      },
+      "id": 964032199
+    },
+    {
+      "cityName": "Ko Pha Ngan",
+      "country": "Thailand",
+      "emoji": "🇹🇭",
+      "date": "2024-06-07T21:19:58.603Z",
+      "notes": "Scuba divers heaven. Journey by power boat hard to stomach",
+      "position": {
+        "lat": "10.095064740925716",
+        "lng": "99.83322149142623"
+      },
+      "id": 964032200
+    },
+    {
+      "cityName": "Portland",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-06-08T01:26:50.332Z",
+      "notes": "Great coffee scene, Day hiking Multnomah Falls",
+      "position": {
+        "lat": "45.517895028257335",
+        "lng": "-122.67356875352564"
+      },
+      "id": 964032201
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-06-08T01:39:00.686Z",
+      "notes": "Crispy crepes with nutella. Louvre Museum",
+      "position": {
+        "lat": "48.84302835299519",
+        "lng": "2.3547361046075825"
+      },
+      "id": 964032202
+    },
+    {
+      "cityName": "Las Vegas",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-06-08T02:14:48.360Z",
+      "notes": "Gambling and Guns",
+      "position": {
+        "lat": "36.1822249804225",
+        "lng": "-115.15319824218751"
+      },
+      "id": 964032203
+    },
+    {
+      "cityName": "Udaipur",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-06-08T02:19:35.188Z",
+      "notes": "",
+      "position": {
+        "lat": "24.582095141363695",
+        "lng": "73.68804931640626"
+      },
+      "id": 964032204
+    },
+    {
+      "cityName": "Jodhpur",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-06-08T02:20:14.186Z",
+      "notes": "",
+      "position": {
+        "lat": "26.290952564755845",
+        "lng": "73.03298950195314"
+      },
+      "id": 964032205
+    },
+    {
+      "cityName": "Bridgetown",
+      "country": "Barbados",
+      "emoji": "🇧🇧",
+      "date": "2024-06-08T02:27:35.934Z",
+      "notes": "Beaches and sugar cane",
+      "position": {
+        "lat": "13.097536077658091",
+        "lng": "-59.61627960205079"
+      },
+      "id": 964032206
+    },
+    {
+      "cityName": "Calais",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-06-08T02:30:54.268Z",
+      "notes": "School trip to practice French language",
+      "position": {
+        "lat": "50.950640943405055",
+        "lng": "1.8553161621093752"
+      },
+      "id": 964032207
+    },
+    {
+      "cityName": "Edinburgh",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-06-10T21:13:58.799Z",
+      "notes": "Whiskey tasting",
+      "position": {
+        "lat": "55.95166477420873",
+        "lng": "-3.188768866890318"
+      },
+      "id": 964032208
+    },
+    {
+      "cityName": "Taipei",
+      "country": "Taiwan (Province of China)",
+      "emoji": "🇹🇼",
+      "date": "2024-06-10T21:17:54.943Z",
+      "notes": "Taipei 101, green tea from mountain range",
+      "position": {
+        "lat": "24.91793039918657",
+        "lng": "121.5549499564362"
+      },
+      "id": 964032209
     }
   ]
 }
