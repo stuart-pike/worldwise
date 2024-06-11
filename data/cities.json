@@ -155,6 +155,114 @@
         "lng": "121.5549499564362"
       },
       "id": 964032209
+    },
+    {
+      "cityName": "Larnaca",
+      "country": "Cyprus",
+      "emoji": "🇨🇾",
+      "date": "2024-06-11T02:54:57.894Z",
+      "notes": "Ouzo. Windsailing",
+      "position": {
+        "lat": "34.92225254143159",
+        "lng": "33.62365718465299"
+      },
+      "id": 964032210
+    },
+    {
+      "cityName": "Valletta",
+      "country": "Malta",
+      "emoji": "🇲🇹",
+      "date": "2024-06-11T02:56:05.445Z",
+      "notes": "Warm pool in the rain",
+      "position": {
+        "lat": "35.89850641726091",
+        "lng": "14.508132934570314"
+      },
+      "id": 964032211
+    },
+    {
+      "cityName": "Otaru",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2024-06-11T02:57:12.621Z",
+      "notes": "Quant town near Nikka distillery",
+      "position": {
+        "lat": "43.19983699235146",
+        "lng": "140.9912107139826"
+      },
+      "id": 964032212
+    },
+    {
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2024-06-11T02:58:29.348Z",
+      "notes": "Ramen and A5 beef",
+      "position": {
+        "lat": "35.69299463209881",
+        "lng": "139.7387693077326"
+      },
+      "id": 964032213
+    },
+    {
+      "cityName": "Seoul",
+      "country": "Korea (the Republic of)",
+      "emoji": "🇰🇷",
+      "date": "2024-06-11T02:59:41.154Z",
+      "notes": "Underground fashion malls ",
+      "position": {
+        "lat": "37.55111016010863",
+        "lng": "127.10906982421876"
+      },
+      "id": 964032214
+    },
+    {
+      "cityName": "Shanghai",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2024-06-11T03:00:59.424Z",
+      "notes": "Pork belly and Duck dishes. ",
+      "position": {
+        "lat": "31.1093884172862",
+        "lng": "121.4062498882413"
+      },
+      "id": 964032215
+    },
+    {
+      "cityName": "Beijing",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2024-06-11T03:01:56.717Z",
+      "notes": "Great wall",
+      "position": {
+        "lat": "39.85915479295669",
+        "lng": "116.41113281250001"
+      },
+      "id": 964032216
+    },
+    {
+      "cityName": "Bangkok",
+      "country": "Thailand",
+      "emoji": "🇹🇭",
+      "date": "2024-06-11T03:02:19.190Z",
+      "notes": "fresh cooked seafood. Soy Cowboy",
+      "position": {
+        "lat": "13.635310693690435",
+        "lng": "100.37109375"
+      },
+      "id": 964032217
+    },
+    {
+      "cityName": "Chicago",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-06-11T03:05:16.261Z",
+      "notes": "Windy and cold",
+      "position": {
+        "lat": "41.88592077854255",
+        "lng": "-87.94189274311066"
+      },
+      "id": 964032218
     }
   ]
 }

@@ -14,26 +14,36 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
+// function flagEmojiToPNG(flag) {
+//   var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
+//     .map((char) => String.fromCharCode(char - 127397).toLowerCase())
+//     .join("");
+//   return (
+//     <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
+//   );
+// }
+
 function City() {
   const { id } = useParams();
   const { getCity, currentCity, isLoading } = useCities();
-  const { cityName, emoji, date, notes } = currentCity;
 
   useEffect(
     function () {
       getCity(id);
     },
-    [id, getCity]
+    [id]
   );
 
+  const { cityName, emoji, date, notes } = currentCity;
+
   if (isLoading) return <Spinner />;
+
   return (
     <div className={styles.city}>
       <div className={styles.row}>
         <h6>City name</h6>
         <h3>
-          <span>{emoji}</span>
-          {cityName}
+          <span>{emoji}</span> {cityName}
         </h3>
       </div>
 
@@ -59,6 +69,7 @@ function City() {
           Check out {cityName} on Wikipedia &rarr;
         </a>
       </div>
+
       <div>
         <BackButton />
       </div>
